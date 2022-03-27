@@ -6,6 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Alaa Qutfa -CV</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      @media screen and (max-width:700px) {
+        #header1{
+          display: block !important;
+          width: 100%;
+          text-align: center;
+          direction: rtl;
+        }
+        #main1{
+          display: block !important;
+          direction: rtl;
+        }
+        .main2{
+          float: none !important;
+          margin: 5px;
+          direction: rtl !important;
+        }
+        .main2 div ol{
+          width: 100% !important;
+        }
+        .main2 div img{
+          width: 100%;
+          height: 100px;
+        }
+      }
+    </style>
 </head>
 <body>
     <header>
@@ -19,7 +49,7 @@
                 </div>
               </nav>
       </div>
-      <div style="display: flex; justify-content: space-around; margin: 10px 50px;">
+      <div id="header1" style="display: flex; justify-content: space-around; margin: 10px 50px;">
             <div class="card" style="width: 18rem; border: none;">
                 <div class="card-body">
                   <ul dir="rtl" style="width:100%; display: block; justify-content: space-between; text-decoration: none;">
@@ -33,9 +63,6 @@
                       <a href="telto:+963041412119" style="width:100%; display: flex; justify-content: space-between; text-decoration: none;"><span>+963941412119</span><img src="img/phone.png" width="25" height="25"/></a>
                     </li>
                   </ul>
-                  
-                  
-                  
                 </div>
               </div>
               <img src="img/logo.JPEG" class="rounded mx-auto d-block" style="width: 200px; height: 200px; border-radius: 50%; "/>
@@ -49,7 +76,7 @@
       </div>
     </header>
     <main>
-      <div style="display: flex; justify-content: space-around; margin: 10px 50px;">
+      <div id="main1" style="display: flex; justify-content: space-around; margin: 10px 50px;">
         <div class="card" style="width: 18rem; border: none;">
           <div class="card-body" dir="rtl">
             <h4 class="card-title" style="width: 100%; text-align: center; border: 2px solid #3a6fc4; font-weight: 800; padding: 10px;">التعليم</h4>
@@ -91,8 +118,8 @@
                 <h1 style="width: 100%; text-align: center; line-height: 90px; font-weight: 800;">:الخبرة</h1>
               </a>
       </div>
-      <div style="float: right; display: block; direction: rtl; width: 100%; padding: 50px; background-color: #f0f0f0;">
-            <section style="float: right; width:70%;">
+      <div  style="display: block; direction: rtl; width: 100%; padding: 50px; background-color: #f0f0f0;">
+            <section class="main2" style="float: right; width:70%;">
               <div>
                 <h1>التخصصات:</h1>
                   <ol class="list-group list-group-numbered" style="width: 50%;">
@@ -110,13 +137,13 @@
                   </ol>
               </div>
             </section>
-            <section style="float:left; width:30%;">
-                <div class="card" style="width: 18rem; border: none; margin-bottom: 50px;">
+            <section class="main2" style="float:left; width:30%;">
+                <div class="card card1" style="width: 18rem; border: none; margin-bottom: 50px;">
                     <div class="card-body">
                       <img src="img/css.jpg" width="100%" height="100%" alt="">
                     </div>
                   </div>
-                  <div class="card" style="width: 18rem; border: none;">
+                  <div class="card card1" style="width: 18rem; border: none;">
                     <div class="card-body">
                       <img src="img/html.jpg" width="100%" height="100%" alt="">
                     </div>
